@@ -106,12 +106,6 @@
         "type": "vagrant"
       },
       {
-        "type": "vagrant-cloud",
-        "box_tag": "{{ user `box_tag` }}",
-        "access_token": "{{ user `vagrant_cloud_token` }}",
-        "version": "{{ timestamp }}"
-      },
-      {
         "type": "manifest",
         "output": "manifest.json",
         "strip_path": true

@@ -2,7 +2,7 @@
 autoinstall:
   version: 1
   early-commands:
-    # Block inbound SSH to stop Packer trying to connect during intial install
+    # Block inbound SSH to stop Packer trying to connect during initial install
     - iptables -A INPUT -p tcp --dport 22 -j DROP
   identity:
     hostname: ubuntu-server

@@ -1,8 +1,10 @@
 #!/usr/bin/env bash
-packer build -only=virtualbox-iso -var-file=../../../private_vars.json \
+export PACKER_LOG=10; export PACKER_LOG_PATH=logofpacker.txt
+packer build -only=virtualbox-iso \
   -var-file=box_info.json -var-file=template.json ../../ubuntu-server-live-installer.json
 
-packer build -only=vmware-iso -var-file=../../../private_vars.json \
+exit 0
+packer build -only=vmware-iso \
   -var-file=box_info.json -var-file=template.json ../../ubuntu-server-live-installer.json
 
 # command -v qemu-system-x86_64 --version >/dev/null 2>&1
@@ -14,6 +16,6 @@ packer build -only=vmware-iso -var-file=../../../private_vars.json \
 #     QEMU_ACCEL="kvm"
 #   fi
 #   packer build -only=qemu -var qemu_accelerator=$QEMU_ACCEL \
-#     -var-file=../../../private_vars.json -var-file=box_info.json \
+#     -var-file=box_info.json \
 #     -var-file=template.json ../../ubuntu-server-live-installer.json
 # fi

@@ -1,0 +1,310 @@
+2020/06/19 15:16:54 [INFO] Packer version: 1.6.0 [go1.14.3 darwin amd64]
+2020/06/19 15:16:54 Checking 'PACKER_CONFIG' for a config file path
+2020/06/19 15:16:54 'PACKER_CONFIG' not set; checking the default config file path
+2020/06/19 15:16:54 Attempting to open config file: /Users/mobile/.packerconfig
+2020/06/19 15:16:54 [WARN] Config file doesn't exist: /Users/mobile/.packerconfig
+2020/06/19 15:16:54 Setting cache directory: /Users/mobile/packer-templates/Ubuntu/focal64/desktop/packer_cache
+2020/06/19 15:16:54 Creating plugin client for path: /usr/local/bin/packer
+2020/06/19 15:16:54 Starting plugin: /usr/local/bin/packer []string{"/usr/local/bin/packer", "plugin", "packer-builder-virtualbox-iso"}
+2020/06/19 15:16:54 Waiting for RPC address for: /usr/local/bin/packer
+2020/06/19 15:16:54 packer-builder-virtualbox-iso plugin: [INFO] Packer version: 1.6.0 [go1.14.3 darwin amd64]
+2020/06/19 15:16:54 packer-builder-virtualbox-iso plugin: Checking 'PACKER_CONFIG' for a config file path
+2020/06/19 15:16:54 packer-builder-virtualbox-iso plugin: 'PACKER_CONFIG' not set; checking the default config file path
+2020/06/19 15:16:54 packer-builder-virtualbox-iso plugin: Attempting to open config file: /Users/mobile/.packerconfig
+2020/06/19 15:16:54 packer-builder-virtualbox-iso plugin: [WARN] Config file doesn't exist: /Users/mobile/.packerconfig
+2020/06/19 15:16:54 packer-builder-virtualbox-iso plugin: Setting cache directory: /Users/mobile/packer-templates/Ubuntu/focal64/desktop/packer_cache
+2020/06/19 15:16:54 packer-builder-virtualbox-iso plugin: args: []string{"packer-builder-virtualbox-iso"}
+2020/06/19 15:16:54 packer-builder-virtualbox-iso plugin: Plugin address: unix /var/folders/dx/c683g6yn5c7bz03p0_w60sk00000gn/T/packer-plugin768981307
+2020/06/19 15:16:54 packer-builder-virtualbox-iso plugin: Waiting for connection...
+2020/06/19 15:16:54 Received unix RPC address for /usr/local/bin/packer: addr is /var/folders/dx/c683g6yn5c7bz03p0_w60sk00000gn/T/packer-plugin768981307
+2020/06/19 15:16:54 packer-builder-virtualbox-iso plugin: Serving a plugin connection...
+2020/06/19 15:16:54 Creating plugin client for path: /usr/local/bin/packer
+2020/06/19 15:16:54 Starting plugin: /usr/local/bin/packer []string{"/usr/local/bin/packer", "plugin", "packer-provisioner-shell"}
+2020/06/19 15:16:54 Waiting for RPC address for: /usr/local/bin/packer
+2020/06/19 15:16:54 packer-provisioner-shell plugin: [INFO] Packer version: 1.6.0 [go1.14.3 darwin amd64]
+2020/06/19 15:16:54 packer-provisioner-shell plugin: Checking 'PACKER_CONFIG' for a config file path
+2020/06/19 15:16:54 packer-provisioner-shell plugin: 'PACKER_CONFIG' not set; checking the default config file path
+2020/06/19 15:16:54 packer-provisioner-shell plugin: Attempting to open config file: /Users/mobile/.packerconfig
+2020/06/19 15:16:54 packer-provisioner-shell plugin: [WARN] Config file doesn't exist: /Users/mobile/.packerconfig
+2020/06/19 15:16:54 packer-provisioner-shell plugin: Setting cache directory: /Users/mobile/packer-templates/Ubuntu/focal64/desktop/packer_cache
+2020/06/19 15:16:54 packer-provisioner-shell plugin: args: []string{"packer-provisioner-shell"}
+2020/06/19 15:16:54 packer-provisioner-shell plugin: Plugin address: unix /var/folders/dx/c683g6yn5c7bz03p0_w60sk00000gn/T/packer-plugin904437175
+2020/06/19 15:16:54 packer-provisioner-shell plugin: Waiting for connection...
+2020/06/19 15:16:54 Received unix RPC address for /usr/local/bin/packer: addr is /var/folders/dx/c683g6yn5c7bz03p0_w60sk00000gn/T/packer-plugin904437175
+2020/06/19 15:16:54 packer-provisioner-shell plugin: Serving a plugin connection...
+2020/06/19 15:16:54 Creating plugin client for path: /usr/local/bin/packer
+2020/06/19 15:16:54 Starting plugin: /usr/local/bin/packer []string{"/usr/local/bin/packer", "plugin", "packer-post-processor-vagrant"}
+2020/06/19 15:16:54 Waiting for RPC address for: /usr/local/bin/packer
+2020/06/19 15:16:54 packer-post-processor-vagrant plugin: [INFO] Packer version: 1.6.0 [go1.14.3 darwin amd64]
+2020/06/19 15:16:54 packer-post-processor-vagrant plugin: Checking 'PACKER_CONFIG' for a config file path
+2020/06/19 15:16:54 packer-post-processor-vagrant plugin: 'PACKER_CONFIG' not set; checking the default config file path
+2020/06/19 15:16:54 packer-post-processor-vagrant plugin: Attempting to open config file: /Users/mobile/.packerconfig
+2020/06/19 15:16:54 packer-post-processor-vagrant plugin: [WARN] Config file doesn't exist: /Users/mobile/.packerconfig
+2020/06/19 15:16:54 packer-post-processor-vagrant plugin: Setting cache directory: /Users/mobile/packer-templates/Ubuntu/focal64/desktop/packer_cache
+2020/06/19 15:16:54 packer-post-processor-vagrant plugin: args: []string{"packer-post-processor-vagrant"}
+2020/06/19 15:16:54 packer-post-processor-vagrant plugin: Plugin address: unix /var/folders/dx/c683g6yn5c7bz03p0_w60sk00000gn/T/packer-plugin511108691
+2020/06/19 15:16:54 packer-post-processor-vagrant plugin: Waiting for connection...
+2020/06/19 15:16:54 Received unix RPC address for /usr/local/bin/packer: addr is /var/folders/dx/c683g6yn5c7bz03p0_w60sk00000gn/T/packer-plugin511108691
+2020/06/19 15:16:54 packer-post-processor-vagrant plugin: Serving a plugin connection...
+2020/06/19 15:16:54 Creating plugin client for path: /usr/local/bin/packer
+2020/06/19 15:16:54 Starting plugin: /usr/local/bin/packer []string{"/usr/local/bin/packer", "plugin", "packer-post-processor-manifest"}
+2020/06/19 15:16:54 Waiting for RPC address for: /usr/local/bin/packer
+2020/06/19 15:16:54 packer-post-processor-manifest plugin: [INFO] Packer version: 1.6.0 [go1.14.3 darwin amd64]
+2020/06/19 15:16:54 packer-post-processor-manifest plugin: Checking 'PACKER_CONFIG' for a config file path
+2020/06/19 15:16:54 packer-post-processor-manifest plugin: 'PACKER_CONFIG' not set; checking the default config file path
+2020/06/19 15:16:54 packer-post-processor-manifest plugin: Attempting to open config file: /Users/mobile/.packerconfig
+2020/06/19 15:16:54 packer-post-processor-manifest plugin: [WARN] Config file doesn't exist: /Users/mobile/.packerconfig
+2020/06/19 15:16:54 packer-post-processor-manifest plugin: Setting cache directory: /Users/mobile/packer-templates/Ubuntu/focal64/desktop/packer_cache
+2020/06/19 15:16:54 packer-post-processor-manifest plugin: args: []string{"packer-post-processor-manifest"}
+2020/06/19 15:16:54 packer-post-processor-manifest plugin: Plugin address: unix /var/folders/dx/c683g6yn5c7bz03p0_w60sk00000gn/T/packer-plugin850389775
+2020/06/19 15:16:54 packer-post-processor-manifest plugin: Waiting for connection...
+2020/06/19 15:16:54 Received unix RPC address for /usr/local/bin/packer: addr is /var/folders/dx/c683g6yn5c7bz03p0_w60sk00000gn/T/packer-plugin850389775
+2020/06/19 15:16:54 packer-post-processor-manifest plugin: Serving a plugin connection...
+2020/06/19 15:16:54 Preparing build: virtualbox-iso
+2020/06/19 15:16:54 ui: [1;32mvirtualbox-iso: output will be in this color.[0m
+2020/06/19 15:16:54 ui: 
+2020/06/19 15:16:54 Build debug mode: false
+2020/06/19 15:16:54 Force build: false
+2020/06/19 15:16:54 On error: 
+2020/06/19 15:16:54 Waiting on builds to complete...
+2020/06/19 15:16:54 Starting build run: virtualbox-iso
+2020/06/19 15:16:54 Running builder: virtualbox-iso
+2020/06/19 15:16:54 [INFO] (telemetry) Starting builder virtualbox-iso
+2020/06/19 15:16:54 packer-builder-virtualbox-iso plugin: VBoxManage path: /usr/local/bin/VBoxManage
+2020/06/19 15:16:55 packer-builder-virtualbox-iso plugin: VBoxManage --version output: 6.1.10r138449
+2020/06/19 15:16:55 packer-builder-virtualbox-iso plugin: VirtualBox version: 6.1.10
+2020/06/19 15:16:55 packer-builder-virtualbox-iso plugin: guest_additions_url is blank; querying driver for iso.
+2020/06/19 15:16:55 packer-builder-virtualbox-iso plugin: Found Default Guest Additions ISO: /Applications/VirtualBox.app/Contents/MacOS/VBoxGuestAdditions.iso
+2020/06/19 15:16:55 packer-builder-virtualbox-iso plugin: Guest additions URL: /Applications/VirtualBox.app/Contents/MacOS/VBoxGuestAdditions.iso
+2020/06/19 15:16:55 ui: [1;32m==> virtualbox-iso: Retrieving Guest additions[0m
+2020/06/19 15:16:55 ui: [1;32m==> virtualbox-iso: Trying /Applications/VirtualBox.app/Contents/MacOS/VBoxGuestAdditions.iso[0m
+2020/06/19 15:16:55 packer-builder-virtualbox-iso plugin: Acquiring lock for: /Applications/VirtualBox.app/Contents/MacOS/VBoxGuestAdditions.iso (/Users/mobile/packer-templates/Ubuntu/focal64/desktop/packer_cache/7784a55a71d48a1e9b5c487431438fef0f19d87f.iso.lock)
+2020/06/19 15:16:55 ui: [1;32m==> virtualbox-iso: Trying /Applications/VirtualBox.app/Contents/MacOS/VBoxGuestAdditions.iso[0m
+2020/06/19 15:16:55 ui: [1;32m==> virtualbox-iso: /Applications/VirtualBox.app/Contents/MacOS/VBoxGuestAdditions.iso => /Applications/VirtualBox.app/Contents/MacOS/VBoxGuestAdditions.iso[0m
+2020/06/19 15:16:55 packer-builder-virtualbox-iso plugin: Leaving retrieve loop for Guest additions
+2020/06/19 15:16:55 ui: [1;32m==> virtualbox-iso: Retrieving ISO[0m
+2020/06/19 15:16:55 ui: [1;32m==> virtualbox-iso: Trying http://releases.ubuntu.com/20.04/ubuntu-20.04-live-server-amd64.iso[0m
+2020/06/19 15:16:55 packer-builder-virtualbox-iso plugin: Acquiring lock for: http://releases.ubuntu.com/20.04/ubuntu-20.04-live-server-amd64.iso?checksum=sha256%3Acaf3fd69c77c439f162e2ba6040e9c320c4ff0d69aad1340a514319a9264df9f (/Users/mobile/packer-templates/Ubuntu/focal64/desktop/packer_cache/62c2e082000215ba417890dee7c838010abb5bf4.iso.lock)
+2020/06/19 15:16:55 ui: [1;32m==> virtualbox-iso: Trying http://releases.ubuntu.com/20.04/ubuntu-20.04-live-server-amd64.iso?checksum=sha256%3Acaf3fd69c77c439f162e2ba6040e9c320c4ff0d69aad1340a514319a9264df9f[0m
+2020/06/19 15:23:29 packer-builder-virtualbox-iso plugin: closing
+2020/06/19 15:23:33 ui: [1;32m==> virtualbox-iso: http://releases.ubuntu.com/20.04/ubuntu-20.04-live-server-amd64.iso?checksum=sha256%3Acaf3fd69c77c439f162e2ba6040e9c320c4ff0d69aad1340a514319a9264df9f => /Users/mobile/packer-templates/Ubuntu/focal64/desktop/packer_cache/62c2e082000215ba417890dee7c838010abb5bf4.iso[0m
+2020/06/19 15:23:33 packer-builder-virtualbox-iso plugin: Leaving retrieve loop for ISO
+2020/06/19 15:23:33 packer-builder-virtualbox-iso plugin: No floppy files specified. Floppy disk will not be made.
+2020/06/19 15:23:33 packer-builder-virtualbox-iso plugin: Found available port: 8091 on IP: 0.0.0.0
+2020/06/19 15:23:33 ui: [1;32m==> virtualbox-iso: Starting HTTP server on port 8091[0m
+2020/06/19 15:23:33 packer-builder-virtualbox-iso plugin: Suppressing annoying messages in VirtualBox
+2020/06/19 15:23:33 packer-builder-virtualbox-iso plugin: Executing VBoxManage: []string{"setextradata", "global", "GUI/RegistrationData", "triesLeft=0"}
+2020/06/19 15:23:33 packer-builder-virtualbox-iso plugin: stdout:
+2020/06/19 15:23:33 packer-builder-virtualbox-iso plugin: stderr:
+2020/06/19 15:23:33 packer-builder-virtualbox-iso plugin: Executing VBoxManage: []string{"setextradata", "global", "GUI/SuppressMessages", "confirmInputCapture,remindAboutAutoCapture,remindAboutMouseIntegrationOff,remindAboutMouseIntegrationOn,remindAboutWrongColorDepth"}
+2020/06/19 15:23:33 packer-builder-virtualbox-iso plugin: stdout:
+2020/06/19 15:23:33 packer-builder-virtualbox-iso plugin: stderr:
+2020/06/19 15:23:33 packer-builder-virtualbox-iso plugin: Executing VBoxManage: []string{"setextradata", "global", "GUI/UpdateCheckCount", "60"}
+2020/06/19 15:23:33 packer-builder-virtualbox-iso plugin: stdout:
+2020/06/19 15:23:33 packer-builder-virtualbox-iso plugin: stderr:
+2020/06/19 15:23:33 packer-builder-virtualbox-iso plugin: Executing VBoxManage: []string{"setextradata", "global", "GUI/UpdateDate", "1 d, 2021-01-01, stable"}
+2020/06/19 15:23:33 packer-builder-virtualbox-iso plugin: stdout:
+2020/06/19 15:23:33 packer-builder-virtualbox-iso plugin: stderr:
+2020/06/19 15:23:33 ui: [1;32m==> virtualbox-iso: Creating virtual machine...[0m
+2020/06/19 15:23:33 packer-builder-virtualbox-iso plugin: Executing VBoxManage: []string{"createvm", "--name", "focal64-desktop-packer-template-1592572614", "--ostype", "Ubuntu_64", "--register"}
+2020/06/19 15:23:33 packer-builder-virtualbox-iso plugin: stdout: Virtual machine 'focal64-desktop-packer-template-1592572614' is created and registered.
+2020/06/19 15:23:33 packer-builder-virtualbox-iso plugin: UUID: fe16d9e6-19a1-46b9-8d55-4e265a869adf
+2020/06/19 15:23:33 packer-builder-virtualbox-iso plugin: Settings file: '/Users/mobile/VirtualBox VMs/focal64-desktop-packer-template-1592572614/focal64-desktop-packer-template-1592572614.vbox'
+2020/06/19 15:23:33 packer-builder-virtualbox-iso plugin: stderr:
+2020/06/19 15:23:33 packer-builder-virtualbox-iso plugin: Executing VBoxManage: []string{"modifyvm", "focal64-desktop-packer-template-1592572614", "--boot1", "disk", "--boot2", "dvd", "--boot3", "none", "--boot4", "none"}
+2020/06/19 15:23:33 packer-builder-virtualbox-iso plugin: stdout:
+2020/06/19 15:23:33 packer-builder-virtualbox-iso plugin: stderr:
+2020/06/19 15:23:33 packer-builder-virtualbox-iso plugin: Executing VBoxManage: []string{"modifyvm", "focal64-desktop-packer-template-1592572614", "--cpus", "1"}
+2020/06/19 15:23:33 packer-builder-virtualbox-iso plugin: stdout:
+2020/06/19 15:23:33 packer-builder-virtualbox-iso plugin: stderr:
+2020/06/19 15:23:33 packer-builder-virtualbox-iso plugin: Executing VBoxManage: []string{"modifyvm", "focal64-desktop-packer-template-1592572614", "--memory", "1024"}
+2020/06/19 15:23:33 packer-builder-virtualbox-iso plugin: stdout:
+2020/06/19 15:23:33 packer-builder-virtualbox-iso plugin: stderr:
+2020/06/19 15:23:33 packer-builder-virtualbox-iso plugin: Executing VBoxManage: []string{"modifyvm", "focal64-desktop-packer-template-1592572614", "--usb", "off"}
+2020/06/19 15:23:33 packer-builder-virtualbox-iso plugin: stdout:
+2020/06/19 15:23:33 packer-builder-virtualbox-iso plugin: stderr:
+2020/06/19 15:23:33 packer-builder-virtualbox-iso plugin: Executing VBoxManage: []string{"modifyvm", "focal64-desktop-packer-template-1592572614", "--audio", "none"}
+2020/06/19 15:23:33 packer-builder-virtualbox-iso plugin: stdout:
+2020/06/19 15:23:33 packer-builder-virtualbox-iso plugin: stderr:
+2020/06/19 15:23:33 ui: [1;32m==> virtualbox-iso: Creating hard drive...[0m
+2020/06/19 15:23:33 packer-builder-virtualbox-iso plugin: Executing VBoxManage: []string{"createhd", "--filename", "output-focal64-desktop-packer-template-virtualbox-iso-1592572614/focal64-desktop-packer-template-1592572614.vdi", "--size", "36864", "--format", "VDI", "--variant", "Standard"}
+2020/06/19 15:23:33 packer-builder-virtualbox-iso plugin: stdout: Medium created. UUID: 755543f9-df34-4ddd-92d3-de4ffbdc9a88
+2020/06/19 15:23:33 packer-builder-virtualbox-iso plugin: stderr: 0%...10%...20%...30%...40%...50%...60%...70%...80%...90%...100%
+2020/06/19 15:23:33 packer-builder-virtualbox-iso plugin: Executing VBoxManage: []string{"storagectl", "focal64-desktop-packer-template-1592572614", "--name", "IDE Controller", "--add", "ide"}
+2020/06/19 15:23:33 packer-builder-virtualbox-iso plugin: stdout:
+2020/06/19 15:23:33 packer-builder-virtualbox-iso plugin: stderr:
+2020/06/19 15:23:33 packer-builder-virtualbox-iso plugin: Executing VBoxManage: []string{"storagectl", "focal64-desktop-packer-template-1592572614", "--name", "SCSI Controller", "--add", "scsi", "--controller", "LSILogic"}
+2020/06/19 15:23:33 packer-builder-virtualbox-iso plugin: stdout:
+2020/06/19 15:23:33 packer-builder-virtualbox-iso plugin: stderr:
+2020/06/19 15:23:33 packer-builder-virtualbox-iso plugin: Executing VBoxManage: []string{"storageattach", "focal64-desktop-packer-template-1592572614", "--storagectl", "SCSI Controller", "--port", "0", "--device", "0", "--type", "hdd", "--medium", "output-focal64-desktop-packer-template-virtualbox-iso-1592572614/focal64-desktop-packer-template-1592572614.vdi", "--nonrotational", "off", "--discard", "off"}
+2020/06/19 15:23:33 packer-builder-virtualbox-iso plugin: stdout:
+2020/06/19 15:23:33 packer-builder-virtualbox-iso plugin: stderr:
+2020/06/19 15:23:33 packer-builder-virtualbox-iso plugin: Executing VBoxManage: []string{"storageattach", "focal64-desktop-packer-template-1592572614", "--storagectl", "IDE Controller", "--port", "0", "--device", "1", "--type", "dvddrive", "--medium", "/Users/mobile/packer-templates/packer_cache/62c2e082000215ba417890dee7c838010abb5bf4.iso"}
+2020/06/19 15:23:33 packer-builder-virtualbox-iso plugin: stdout:
+2020/06/19 15:23:33 packer-builder-virtualbox-iso plugin: stderr:
+2020/06/19 15:23:33 packer-builder-virtualbox-iso plugin: Not attaching guest additions since we're uploading.
+2020/06/19 15:23:33 packer-builder-virtualbox-iso plugin: Looking for available port between 5900 and 6000 on 127.0.0.1
+2020/06/19 15:23:33 packer-builder-virtualbox-iso plugin: Found available port: 5922 on IP: 127.0.0.1
+2020/06/19 15:23:33 packer-builder-virtualbox-iso plugin: Executing VBoxManage: []string{"modifyvm", "focal64-desktop-packer-template-1592572614", "--vrdeaddress", "127.0.0.1", "--vrdeauthtype", "null", "--vrde", "on", "--vrdeport", "5922"}
+2020/06/19 15:23:33 packer-builder-virtualbox-iso plugin: stdout:
+2020/06/19 15:23:33 packer-builder-virtualbox-iso plugin: stderr:
+2020/06/19 15:23:33 packer-builder-virtualbox-iso plugin: No floppy disk, not attaching.
+2020/06/19 15:23:33 packer-builder-virtualbox-iso plugin: Looking for available communicator (SSH, WinRM, etc) port between 2222 and 4444
+2020/06/19 15:23:33 packer-builder-virtualbox-iso plugin: Found available port: 2732 on IP: 127.0.0.1
+2020/06/19 15:23:33 packer-builder-virtualbox-iso plugin: Executing VBoxManage: []string{"modifyvm", "focal64-desktop-packer-template-1592572614", "--nic1", "nat"}
+2020/06/19 15:23:33 packer-builder-virtualbox-iso plugin: stdout:
+2020/06/19 15:23:33 packer-builder-virtualbox-iso plugin: stderr:
+2020/06/19 15:23:33 ui: [1;32m==> virtualbox-iso: Creating forwarded port mapping for communicator (SSH, WinRM, etc) (host port 2732)[0m
+2020/06/19 15:23:33 packer-builder-virtualbox-iso plugin: Executing VBoxManage: []string{"modifyvm", "focal64-desktop-packer-template-1592572614", "--natpf1", "packercomm,tcp,127.0.0.1,2732,,22"}
+2020/06/19 15:23:33 packer-builder-virtualbox-iso plugin: stdout:
+2020/06/19 15:23:33 packer-builder-virtualbox-iso plugin: stderr:
+2020/06/19 15:23:33 ui: [1;32m==> virtualbox-iso: Starting the virtual machine...[0m
+2020/06/19 15:23:33 ui: [0;32m    virtualbox-iso: The VM will be run headless, without a GUI. If you want to
+    virtualbox-iso: view the screen of the VM, connect via VRDP without a password to
+    virtualbox-iso: rdp://127.0.0.1:5922[0m
+2020/06/19 15:23:33 packer-builder-virtualbox-iso plugin: Executing VBoxManage: []string{"startvm", "focal64-desktop-packer-template-1592572614", "--type", "headless"}
+2020/06/19 15:23:34 packer-builder-virtualbox-iso plugin: stdout: Waiting for VM "focal64-desktop-packer-template-1592572614" to power on...
+2020/06/19 15:23:34 packer-builder-virtualbox-iso plugin: VM "focal64-desktop-packer-template-1592572614" has been successfully started.
+2020/06/19 15:23:34 packer-builder-virtualbox-iso plugin: stderr:
+2020/06/19 15:23:34 ui: [1;32m==> virtualbox-iso: Waiting 5s for boot...[0m
+2020/06/19 15:23:39 ui: [1;32m==> virtualbox-iso: Typing the boot command...[0m
+2020/06/19 15:23:39 packer-builder-virtualbox-iso plugin: Special code 'Press' '<enter>' found, replacing with: &{[1c] [9c]}
+2020/06/19 15:23:39 packer-builder-virtualbox-iso plugin: Special code 'Press' '<enter>' found, replacing with: &{[1c] [9c]}
+2020/06/19 15:23:39 packer-builder-virtualbox-iso plugin: Special code 'Press' '<f6>' found, replacing with: &{[40] [c0]}
+2020/06/19 15:23:39 packer-builder-virtualbox-iso plugin: Special code 'Press' '<esc>' found, replacing with: &{[01] [81]}
+2020/06/19 15:23:39 packer-builder-virtualbox-iso plugin: Executing VBoxManage: []string{"controlvm", "focal64-desktop-packer-template-1592572614", "keyboardputscancode", "1c", "9c", "1c", "9c", "40", "c0", "01", "81"}
+2020/06/19 15:23:39 packer-builder-virtualbox-iso plugin: stdout:
+2020/06/19 15:23:39 packer-builder-virtualbox-iso plugin: stderr:
+2020/06/19 15:23:39 packer-builder-virtualbox-iso plugin: [INFO] Waiting 1s
+2020/06/19 15:23:40 packer-builder-virtualbox-iso plugin: Sending char ' ', code '39b9', shift false
+2020/06/19 15:23:40 packer-builder-virtualbox-iso plugin: Sending char 'a', code '1e9e', shift false
+2020/06/19 15:23:40 packer-builder-virtualbox-iso plugin: Sending char 'u', code '1696', shift false
+2020/06/19 15:23:40 packer-builder-virtualbox-iso plugin: Sending char 't', code '1494', shift false
+2020/06/19 15:23:40 packer-builder-virtualbox-iso plugin: Sending char 'o', code '1898', shift false
+2020/06/19 15:23:40 packer-builder-virtualbox-iso plugin: Sending char 'i', code '1797', shift false
+2020/06/19 15:23:40 packer-builder-virtualbox-iso plugin: Sending char 'n', code '31b1', shift false
+2020/06/19 15:23:40 packer-builder-virtualbox-iso plugin: Sending char 's', code '1f9f', shift false
+2020/06/19 15:23:40 packer-builder-virtualbox-iso plugin: Sending char 't', code '1494', shift false
+2020/06/19 15:23:40 packer-builder-virtualbox-iso plugin: Sending char 'a', code '1e9e', shift false
+2020/06/19 15:23:40 packer-builder-virtualbox-iso plugin: Sending char 'l', code '26a6', shift false
+2020/06/19 15:23:40 packer-builder-virtualbox-iso plugin: Sending char 'l', code '26a6', shift false
+2020/06/19 15:23:40 packer-builder-virtualbox-iso plugin: Sending char ' ', code '39b9', shift false
+2020/06/19 15:23:40 packer-builder-virtualbox-iso plugin: Sending char 'd', code '20a0', shift false
+2020/06/19 15:23:40 packer-builder-virtualbox-iso plugin: Sending char 's', code '1f9f', shift false
+2020/06/19 15:23:40 packer-builder-virtualbox-iso plugin: Sending char '=', code '0d8d', shift false
+2020/06/19 15:23:40 packer-builder-virtualbox-iso plugin: Sending char 'n', code '31b1', shift false
+2020/06/19 15:23:40 packer-builder-virtualbox-iso plugin: Sending char 'o', code '1898', shift false
+2020/06/19 15:23:40 packer-builder-virtualbox-iso plugin: Sending char 'c', code '2eae', shift false
+2020/06/19 15:23:40 packer-builder-virtualbox-iso plugin: Sending char 'l', code '26a6', shift false
+2020/06/19 15:23:40 packer-builder-virtualbox-iso plugin: Sending char 'o', code '1898', shift false
+2020/06/19 15:23:40 packer-builder-virtualbox-iso plugin: Sending char 'u', code '1696', shift false
+2020/06/19 15:23:40 packer-builder-virtualbox-iso plugin: Sending char 'd', code '20a0', shift false
+2020/06/19 15:23:40 packer-builder-virtualbox-iso plugin: Sending char '-', code '0c8c', shift false
+2020/06/19 15:23:40 packer-builder-virtualbox-iso plugin: Sending char 'n', code '31b1', shift false
+2020/06/19 15:23:40 packer-builder-virtualbox-iso plugin: Sending char 'e', code '1292', shift false
+2020/06/19 15:23:40 packer-builder-virtualbox-iso plugin: Sending char 't', code '1494', shift false
+2020/06/19 15:23:40 packer-builder-virtualbox-iso plugin: Sending char ';', code '27a7', shift false
+2020/06/19 15:23:40 packer-builder-virtualbox-iso plugin: Sending char 's', code '1f9f', shift false
+2020/06/19 15:23:40 packer-builder-virtualbox-iso plugin: Sending char '=', code '0d8d', shift false
+2020/06/19 15:23:40 packer-builder-virtualbox-iso plugin: Sending char 'h', code '23a3', shift false
+2020/06/19 15:23:40 packer-builder-virtualbox-iso plugin: Sending char 't', code '1494', shift false
+2020/06/19 15:23:40 packer-builder-virtualbox-iso plugin: Sending char 't', code '1494', shift false
+2020/06/19 15:23:40 packer-builder-virtualbox-iso plugin: Sending char 'p', code '1999', shift false
+2020/06/19 15:23:40 packer-builder-virtualbox-iso plugin: Sending char ':', code '2a27aaa7', shift true
+2020/06/19 15:23:40 packer-builder-virtualbox-iso plugin: Sending char '/', code '35b5', shift false
+2020/06/19 15:23:40 packer-builder-virtualbox-iso plugin: Sending char '/', code '35b5', shift false
+2020/06/19 15:23:40 packer-builder-virtualbox-iso plugin: Sending char '1', code '0282', shift false
+2020/06/19 15:23:40 packer-builder-virtualbox-iso plugin: Sending char '0', code '0b8b', shift false
+2020/06/19 15:23:40 packer-builder-virtualbox-iso plugin: Sending char '.', code '34b4', shift false
+2020/06/19 15:23:40 packer-builder-virtualbox-iso plugin: Sending char '0', code '0b8b', shift false
+2020/06/19 15:23:40 packer-builder-virtualbox-iso plugin: Sending char '.', code '34b4', shift false
+2020/06/19 15:23:40 packer-builder-virtualbox-iso plugin: Sending char '2', code '0383', shift false
+2020/06/19 15:23:40 packer-builder-virtualbox-iso plugin: Sending char '.', code '34b4', shift false
+2020/06/19 15:23:40 packer-builder-virtualbox-iso plugin: Sending char '2', code '0383', shift false
+2020/06/19 15:23:40 packer-builder-virtualbox-iso plugin: Sending char ':', code '2a27aaa7', shift true
+2020/06/19 15:23:40 packer-builder-virtualbox-iso plugin: Sending char '8', code '0989', shift false
+2020/06/19 15:23:40 packer-builder-virtualbox-iso plugin: Sending char '0', code '0b8b', shift false
+2020/06/19 15:23:40 packer-builder-virtualbox-iso plugin: Sending char '9', code '0a8a', shift false
+2020/06/19 15:23:40 packer-builder-virtualbox-iso plugin: Sending char '1', code '0282', shift false
+2020/06/19 15:23:40 packer-builder-virtualbox-iso plugin: Sending char '/', code '35b5', shift false
+2020/06/19 15:23:40 packer-builder-virtualbox-iso plugin: Sending char 'u', code '1696', shift false
+2020/06/19 15:23:40 packer-builder-virtualbox-iso plugin: Sending char 'b', code '30b0', shift false
+2020/06/19 15:23:40 packer-builder-virtualbox-iso plugin: Sending char 'u', code '1696', shift false
+2020/06/19 15:23:40 packer-builder-virtualbox-iso plugin: Sending char 'n', code '31b1', shift false
+2020/06/19 15:23:40 packer-builder-virtualbox-iso plugin: Sending char 't', code '1494', shift false
+2020/06/19 15:23:40 packer-builder-virtualbox-iso plugin: Sending char 'u', code '1696', shift false
+2020/06/19 15:23:40 packer-builder-virtualbox-iso plugin: Sending char '/', code '35b5', shift false
+2020/06/19 15:23:40 packer-builder-virtualbox-iso plugin: Special code 'Press' '<enter>' found, replacing with: &{[1c] [9c]}
+2020/06/19 15:23:40 packer-builder-virtualbox-iso plugin: Executing VBoxManage: []string{"controlvm", "focal64-desktop-packer-template-1592572614", "keyboardputscancode", "39", "b9", "1e", "9e", "16", "96", "14", "94", "18", "98", "17", "97", "31", "b1", "1f", "9f", "14", "94", "1e", "9e", "26", "a6", "26", "a6"}
+2020/06/19 15:23:40 packer-builder-virtualbox-iso plugin: stdout:
+2020/06/19 15:23:40 packer-builder-virtualbox-iso plugin: stderr:
+2020/06/19 15:23:41 packer-builder-virtualbox-iso plugin: Executing VBoxManage: []string{"controlvm", "focal64-desktop-packer-template-1592572614", "keyboardputscancode", "39", "b9", "20", "a0", "1f", "9f", "0d", "8d", "31", "b1", "18", "98", "2e", "ae", "26", "a6", "18", "98", "16", "96", "20", "a0", "0c", "8c"}
+2020/06/19 15:23:41 packer-builder-virtualbox-iso plugin: stdout:
+2020/06/19 15:23:41 packer-builder-virtualbox-iso plugin: stderr:
+2020/06/19 15:23:41 packer-builder-virtualbox-iso plugin: Executing VBoxManage: []string{"controlvm", "focal64-desktop-packer-template-1592572614", "keyboardputscancode", "31", "b1", "12", "92", "14", "94", "27", "a7", "1f", "9f", "0d", "8d", "23", "a3", "14", "94", "14", "94", "19", "99", "2a", "27", "aa", "a7"}
+2020/06/19 15:23:41 packer-builder-virtualbox-iso plugin: stdout:
+2020/06/19 15:23:41 packer-builder-virtualbox-iso plugin: stderr:
+2020/06/19 15:23:41 packer-builder-virtualbox-iso plugin: Executing VBoxManage: []string{"controlvm", "focal64-desktop-packer-template-1592572614", "keyboardputscancode", "35", "b5", "35", "b5", "02", "82", "0b", "8b", "34", "b4", "0b", "8b", "34", "b4", "03", "83", "34", "b4", "03", "83", "2a", "27", "aa", "a7"}
+2020/06/19 15:23:42 packer-builder-virtualbox-iso plugin: stdout:
+2020/06/19 15:23:42 packer-builder-virtualbox-iso plugin: stderr:
+2020/06/19 15:23:42 packer-builder-virtualbox-iso plugin: Executing VBoxManage: []string{"controlvm", "focal64-desktop-packer-template-1592572614", "keyboardputscancode", "09", "89", "0b", "8b", "0a", "8a", "02", "82", "35", "b5", "16", "96", "30", "b0", "16", "96", "31", "b1", "14", "94", "16", "96", "35", "b5"}
+2020/06/19 15:23:42 packer-builder-virtualbox-iso plugin: stdout:
+2020/06/19 15:23:42 packer-builder-virtualbox-iso plugin: stderr:
+2020/06/19 15:23:42 packer-builder-virtualbox-iso plugin: Executing VBoxManage: []string{"controlvm", "focal64-desktop-packer-template-1592572614", "keyboardputscancode", "1c", "9c"}
+2020/06/19 15:23:42 packer-builder-virtualbox-iso plugin: stdout:
+2020/06/19 15:23:42 packer-builder-virtualbox-iso plugin: stderr:
+2020/06/19 15:23:43 ui: [1;32m==> virtualbox-iso: Using ssh communicator to connect: 127.0.0.1[0m
+2020/06/19 15:23:43 packer-builder-virtualbox-iso plugin: [INFO] Waiting for SSH, up to timeout: 1h0m0s
+2020/06/19 15:23:43 ui: [1;32m==> virtualbox-iso: Waiting for SSH to become available...[0m
+2020/06/19 15:23:43 packer-builder-virtualbox-iso plugin: [INFO] Attempting SSH connection to 127.0.0.1:2732...
+2020/06/19 15:23:43 packer-builder-virtualbox-iso plugin: [DEBUG] reconnecting to TCP connection for SSH
+2020/06/19 15:23:43 packer-builder-virtualbox-iso plugin: [DEBUG] handshaking with SSH
+2020/06/19 15:24:01 packer-builder-virtualbox-iso plugin: [DEBUG] SSH handshake err: ssh: handshake failed: read tcp 127.0.0.1:54453->127.0.0.1:2732: read: connection reset by peer
+2020/06/19 15:24:08 packer-builder-virtualbox-iso plugin: [INFO] Attempting SSH connection to 127.0.0.1:2732...
+2020/06/19 15:24:08 packer-builder-virtualbox-iso plugin: [DEBUG] reconnecting to TCP connection for SSH
+2020/06/19 15:24:08 packer-builder-virtualbox-iso plugin: [DEBUG] handshaking with SSH
+2020/06/19 15:24:11 packer-builder-virtualbox-iso plugin: [DEBUG] SSH handshake err: ssh: handshake failed: ssh: unable to authenticate, attempted methods [none password], no supported methods remain
+2020/06/19 15:24:11 packer-builder-virtualbox-iso plugin: [DEBUG] Detected authentication error. Increasing handshake attempts.
+2020/06/19 15:24:18 packer-builder-virtualbox-iso plugin: [INFO] Attempting SSH connection to 127.0.0.1:2732...
+2020/06/19 15:24:18 packer-builder-virtualbox-iso plugin: [DEBUG] reconnecting to TCP connection for SSH
+2020/06/19 15:24:18 packer-builder-virtualbox-iso plugin: [DEBUG] handshaking with SSH
+2020/06/19 15:24:22 packer-builder-virtualbox-iso plugin: [DEBUG] SSH handshake err: ssh: handshake failed: ssh: unable to authenticate, attempted methods [none password], no supported methods remain
+2020/06/19 15:24:22 packer-builder-virtualbox-iso plugin: [DEBUG] Detected authentication error. Increasing handshake attempts.
+2020/06/19 15:24:29 packer-builder-virtualbox-iso plugin: [INFO] Attempting SSH connection to 127.0.0.1:2732...
+2020/06/19 15:24:29 packer-builder-virtualbox-iso plugin: [DEBUG] reconnecting to TCP connection for SSH
+2020/06/19 15:24:29 packer-builder-virtualbox-iso plugin: [DEBUG] handshaking with SSH
+2020/06/19 15:25:29 packer-builder-virtualbox-iso plugin: [DEBUG] SSH handshake err: Timeout during SSH handshake
+2020/06/19 15:25:36 packer-builder-virtualbox-iso plugin: [INFO] Attempting SSH connection to 127.0.0.1:2732...
+2020/06/19 15:25:36 packer-builder-virtualbox-iso plugin: [DEBUG] reconnecting to TCP connection for SSH
+2020/06/19 15:25:36 packer-builder-virtualbox-iso plugin: [DEBUG] handshaking with SSH
+2020/06/19 15:26:36 packer-builder-virtualbox-iso plugin: [DEBUG] SSH handshake err: Timeout during SSH handshake
+2020/06/19 15:26:43 packer-builder-virtualbox-iso plugin: [INFO] Attempting SSH connection to 127.0.0.1:2732...
+2020/06/19 15:26:43 packer-builder-virtualbox-iso plugin: [DEBUG] reconnecting to TCP connection for SSH
+2020/06/19 15:26:43 packer-builder-virtualbox-iso plugin: [DEBUG] handshaking with SSH
+2020/06/19 15:27:43 packer-builder-virtualbox-iso plugin: [DEBUG] SSH handshake err: Timeout during SSH handshake
+2020/06/19 15:27:50 packer-builder-virtualbox-iso plugin: [INFO] Attempting SSH connection to 127.0.0.1:2732...
+2020/06/19 15:27:50 packer-builder-virtualbox-iso plugin: [DEBUG] reconnecting to TCP connection for SSH
+2020/06/19 15:27:50 packer-builder-virtualbox-iso plugin: [DEBUG] handshaking with SSH
+2020/06/19 15:28:50 packer-builder-virtualbox-iso plugin: [DEBUG] SSH handshake err: Timeout during SSH handshake
+2020/06/19 15:28:57 packer-builder-virtualbox-iso plugin: [INFO] Attempting SSH connection to 127.0.0.1:2732...
+2020/06/19 15:28:57 packer-builder-virtualbox-iso plugin: [DEBUG] reconnecting to TCP connection for SSH
+2020/06/19 15:28:57 packer-builder-virtualbox-iso plugin: [DEBUG] handshaking with SSH
+2020/06/19 15:29:57 packer-builder-virtualbox-iso plugin: [DEBUG] SSH handshake err: Timeout during SSH handshake
+2020/06/19 15:30:04 packer-builder-virtualbox-iso plugin: [INFO] Attempting SSH connection to 127.0.0.1:2732...
+2020/06/19 15:30:04 packer-builder-virtualbox-iso plugin: [DEBUG] reconnecting to TCP connection for SSH
+2020/06/19 15:30:04 packer-builder-virtualbox-iso plugin: [DEBUG] handshaking with SSH
+2020/06/19 15:31:04 packer-builder-virtualbox-iso plugin: [DEBUG] SSH handshake err: Timeout during SSH handshake
+2020/06/19 15:31:11 packer-builder-virtualbox-iso plugin: [INFO] Attempting SSH connection to 127.0.0.1:2732...
+2020/06/19 15:31:11 packer-builder-virtualbox-iso plugin: [DEBUG] reconnecting to TCP connection for SSH
+2020/06/19 15:31:11 packer-builder-virtualbox-iso plugin: [DEBUG] handshaking with SSH
+2020/06/19 15:31:18 packer-builder-virtualbox-iso plugin: [DEBUG] SSH handshake err: ssh: handshake failed: read tcp 127.0.0.1:54498->127.0.0.1:2732: read: connection reset by peer
+2020/06/19 15:31:25 packer-builder-virtualbox-iso plugin: [INFO] Attempting SSH connection to 127.0.0.1:2732...
+2020/06/19 15:31:25 packer-builder-virtualbox-iso plugin: [DEBUG] reconnecting to TCP connection for SSH
+2020/06/19 15:31:25 packer-builder-virtualbox-iso plugin: [DEBUG] handshaking with SSH
+2020/06/19 15:31:25 packer-builder-virtualbox-iso plugin: [DEBUG] handshake complete!
+2020/06/19 15:31:25 packer-builder-virtualbox-iso plugin: [INFO] no local agent socket, will not connect agent
+2020/06/19 15:31:25 ui: [1;32m==> virtualbox-iso: Connected to SSH![0m
+2020/06/19 15:31:25 packer-builder-virtualbox-iso plugin: VBoxManage --version output: 6.1.10r138449
+2020/06/19 15:31:25 packer-builder-virtualbox-iso plugin: VirtualBox version: 6.1.10
+2020/06/19 15:31:25 ui: [1;32m==> virtualbox-iso: Uploading VirtualBox version info (6.1.10)[0m
+2020/06/19 15:31:25 packer-builder-virtualbox-iso plugin: [DEBUG] Opening new ssh session
